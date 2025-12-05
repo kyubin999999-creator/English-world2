@@ -81,3 +81,5 @@ if st.button("💾 저장하기"):
         vocab_df.to_csv(CSV_PATH, index=False)
         st.success(f"✔ '{new_word}' 단어가 저장되었습니다!")
 streamlit run app.py
+python -m streamlit run app.py
+
